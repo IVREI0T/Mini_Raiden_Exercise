@@ -1,11 +1,13 @@
-#include <stdio.h>
+#include "SDL\include\SDL.h"
 
 
-int main()
+
+int main(int argc, char* args[])
 {
 
-	printf("Hello Wold");
+	SDL_Init(SDL_INIT_EVERYTHING);
+	SDL_Quit();
 
-	getchar();
 	return 0;
+
 }
